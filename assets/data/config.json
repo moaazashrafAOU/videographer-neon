@@ -1,0 +1,79 @@
+{
+  "project": "Videographer Portfolio",
+  "theme": {
+    "mode": "dark",
+    "background": "#0A0A0F",
+    "typography": "Poppins, sans-serif",
+    "colors": {
+      "primary": "#00F0FF",
+      "secondary": "#C400FF",
+      "accent": "#FF2FD5",
+      "glow": "#39FF14",
+      "text": "#E0E0E0"
+    }
+  },
+  "profile": {
+    "name": "Alex Morgan",
+    "role": "Professional Videographer",
+    "email": "alex@videographer.com",
+    "instagram": "https://instagram.com/alexmorgan_video",
+    "whatsapp": "https://wa.me/1234567890"
+  },
+  "stats": {
+    "happy_clients": 1068,
+    "completed_projects": 230,
+    "active_clients": 230,
+    "years_experience": 5
+  },
+  "videos": [
+    {
+      "id": 1,
+      "title": "Cinematic Travel Documentary",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/1ABC123DEF456/view?usp=sharing",
+      "orientation": "landscape",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Fashion Brand Commercial",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/2GHI789JKL012/view?usp=sharing",
+      "orientation": "portrait",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Music Video Production",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/3MNO345PQR678/view?usp=sharing",
+      "orientation": "landscape",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Corporate Event Coverage",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/4STU901VWX234/view?usp=sharing",
+      "orientation": "landscape",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Product Showcase Reel",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/5YZA567BCD890/view?usp=sharing",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Brand Story Documentary",
+      "source": "drive",
+      "url": "https://drive.google.com/file/d/6EFG123HIJ456/view?usp=sharing",
+      "orientation": "landscape",
+      "featured": false
+    }
+  ]
+}
+
