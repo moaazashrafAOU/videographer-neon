@@ -111,6 +111,20 @@ class VideoLoader {
     }
 
     toDrivePreview(url) {
+        // Support Vimeo player URLs directly
+        if (/player\.vimeo\.com/.test(url)) {
+            return url;
+        }
+        
+        // Support regular Vimeo URLs
+        if (/vimeo\.com/.test(url)) {
+            const vimeoId = url.match(/vimeo\.com\/(\d+)/);
+            if (vimeoId) {
+                return `https://player.vimeo.com/video/${vimeoId[1]}?badge=0&autopause=0&player_id=0&app_id=58479`;
+            }
+        }
+        
+        // Legacy Google Drive support
         if (/drive\.google\.com/.test(url)) {
             const byPath = url.match(/\/d\/([\w-]+)/);
             const byQuery = url.match(/[?&]id=([\w-]+)/);
@@ -165,7 +179,6 @@ class VideoLoader {
                 </div>
             </div>
             <div class="portfolio-info">
-                <h3 class="portfolio-title">${video.title}</h3>
             </div>
         `;
 
@@ -469,6 +482,23 @@ window.addEventListener('unhandledrejection', (e) => {
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize VANTA.HALO background
+    if (typeof VANTA !== 'undefined' && VANTA.HALO) {
+        VANTA.HALO({
+            el: "#vanta-background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            backgroundColor: 0x0a0a0f,
+            amplitudeFactor: 1.00,
+            xOffset: 0.00,
+            yOffset: 0.00,
+            size: 1.00
+        });
+    }
+    
     // Initialize all components
     new LoadingScreen();
     new CounterAnimation();

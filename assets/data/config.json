@@ -13,65 +13,177 @@
     }
   },
   "profile": {
-    "name": "Alex Morgan",
+    "name": "Fatima",
     "role": "Professional Videographer",
     "email": "alex@videographer.com",
-    "instagram": "https://instagram.com/alexmorgan_video",
-    "whatsapp": "https://wa.me/1234567890"
+    "instagram": "https://www.instagram.com/reels.by.fatima?igsh=NjFscWdxdDVtM3k0&utm_source=qr",
+    "whatsapp": "https://wa.me/201028287081"
   },
   "stats": {
-    "happy_clients": 1068,
+    "happy_clients": 50,
     "completed_projects": 230,
-    "active_clients": 230,
+    "active_clients": 25,
     "years_experience": 5
   },
   "videos": [
     {
       "id": 1,
       "title": "Cinematic Travel Documentary",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/1ABC123DEF456/view?usp=sharing",
-      "orientation": "landscape",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
       "featured": true
     },
     {
       "id": 2,
       "title": "Fashion Brand Commercial",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/2GHI789JKL012/view?usp=sharing",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
       "orientation": "portrait",
       "featured": true
     },
     {
       "id": 3,
       "title": "Music Video Production",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/3MNO345PQR678/view?usp=sharing",
-      "orientation": "landscape",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
       "featured": true
     },
     {
       "id": 4,
       "title": "Corporate Event Coverage",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/4STU901VWX234/view?usp=sharing",
-      "orientation": "landscape",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
       "featured": false
     },
     {
       "id": 5,
       "title": "Product Showcase Reel",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/5YZA567BCD890/view?usp=sharing",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
       "orientation": "portrait",
       "featured": false
     },
     {
       "id": 6,
       "title": "Brand Story Documentary",
-      "source": "drive",
-      "url": "https://drive.google.com/file/d/6EFG123HIJ456/view?usp=sharing",
-      "orientation": "landscape",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Wedding Highlight Film",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Real Estate Virtual Tour",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "title": "Event Aftermovie",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Fitness Training Video",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Food Recipe Video",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "Educational Explainer",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Fashion Lookbook",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "Travel Vlog",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "title": "Product Review",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "title": "Behind the Scenes",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "title": "Corporate Interview",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 18,
+      "title": "Short Film",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 19,
+      "title": "Music Performance",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "title": "Brand Launch Video",
+      "source": "vimeo",
+      "url": "https://player.vimeo.com/video/1113006489?badge=0&autopause=0&player_id=0&app_id=58479",
+      "orientation": "portrait",
       "featured": false
     }
   ]
