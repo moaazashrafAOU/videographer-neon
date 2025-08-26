@@ -166,17 +166,17 @@ class VideoLoader {
 
         portfolioItem.innerHTML = `
             <div class="video-container ${orientationClass}">
-                <div class="skeleton" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+                <div class="skeleton" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background: linear-gradient(45deg, #1a1a1a, #2a2a2a); border-radius: 10px;"></div>
                 <iframe 
                     class="video-iframe" 
                     src="${previewUrl}" 
                     loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
                     onload="this.previousElementSibling.style.display='none'"
+                    style="width: 100%; height: 100%; border-radius: 10px;"
                 ></iframe>
-                <div class="portfolio-overlay">
-                    <div class="play-icon">▶</div>
-                </div>
             </div>
             <div class="portfolio-info">
             </div>
